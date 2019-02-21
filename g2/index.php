@@ -5,7 +5,6 @@
 ?>
 <!DOCTYPE html>
 <html>
-<html>
 	<head>
 		<meta charset="UTF-8">
 		<meta name="description" content="Image and Video Sharing Service">
