@@ -1,0 +1,156 @@
+html,body{
+	margin:0px;
+	width:100%;
+	height:100%;
+}
+@font-face {
+    font-family: 'Square721';
+	src: url('TT0246M_.TTF') format('truetype'),
+		 url('TT0246M_.otf') format('opentype'),
+		 url('TT0246M_.woff') format('woff');
+}
+body{
+	font-family: Square721, arial, tahoma;
+	background:#333;
+	background-size:100% 100%;
+	color:#000;
+}
+#masterContainer{
+ }
+#header{
+	margin:20px;
+	font-size:50px;
+	font-style:italic;
+	text-shadow: 0 0 10px #000;
+}
+#menu{
+	margin:20px;
+}
+#mainDiv{
+	margin-top:10px;
+	font-size:24px;
+	width:1015px;
+}
+#innerDivLeft{
+	float:left;
+	text-align:center;
+	width:500px;
+	background: url(vignette_light.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+    background-position: center; 
+	border-radius:12px;
+	margin:2px;
+	height:350px;
+}
+#innerDivRight{
+	float:right;
+	text-align:center;
+	width:500px;
+	border-radius:12px;
+	margin:2px;
+	height:350px;
+	background:url(vignette_light.png) 100% 100%;
+	background-size: 100% 100%;
+}
+#fileInfo1{
+	width:380px;
+	text-align:left;
+	margin-left:50px;
+	border-radius:5px;
+	background:#666;
+	padding:10px;
+	display:none;
+}
+#fileStatus{
+	font-size:16px;
+	border-collapse:collapse;
+	width:100%;
+}
+#formats{
+	margin-top:15px;
+	font-size:20px;
+	border-collapse:collapse;
+	width:100%;
+}
+#formats td{
+	background:#444;
+	padding:5px;
+	color:#aaa;
+	text-align:center;
+}
+#introText{
+	text-align:center;
+	color:#333;
+	padding:50px;
+	margin-top:0px;
+	font-size:28px;
+}
+#formatDiv{
+	margin-left:0px;
+	width:375px;
+	padding:10px;
+	background:#777;
+	border:1px solid #aaa;
+	border-radius:5px;
+}
+td{
+	border:1px solid #888;
+	padding-left:5px;
+	padding-right:5px;
+}
+#upload{
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	border-radius:6px;
+}
+.fileLink a{
+	color:#0ff;
+	text-decoration:none;
+	background:#220;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:5px;
+	font-size:20px;
+	border:1px solid #888;
+}
+.LC{
+	text-align:right;
+	color:#ff0;
+}
+.RC{
+	text-align:left;
+}
+.file_button_container, .file_button_container input {
+	height: 60px;
+	width: 250px;
+	cursor: pointer;
+}
+
+.file_button_container {
+	background: transparent url(upload-button.png) left top no-repeat;
+	margin-left:130px;
+	cursor: pointer;
+}
+
+.file_button_container input {
+	opacity: 0;
+}
+.clear{
+	clear:both;
+}
+.footerLink{
+	padding:10px;
+	padding-top:0px;
+	padding-bottom:0px;
+	border:1px solid #aaa;
+	border-radius:3px;
+	background:#666;
+	color:#fff;
+	margin-right:70px;";
+}

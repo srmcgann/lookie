@@ -1,0 +1,126 @@
+html,body{
+	margin:0px;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+@font-face {
+    font-family: 'Square721';
+	src: url('TT0246M_.TTF') format('truetype'),
+		 url('TT0246M_.otf') format('opentype'),
+		 url('TT0246M_.woff') format('woff');
+}
+body{
+	font-family: Square721, arial, tahoma;
+	background:#151515;
+	background-size:100% 100%;
+	color:#000;
+}
+#masterContainer{
+	position: relative;
+	top: 46%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+#header{
+	position:absolute;
+	z-index:1;
+	margin:30px;
+	font-size:50px;
+	font-style:italic;
+	text-shadow: 0 0 10px #000;
+	font-size:24px;
+	width:160px;
+}
+#mainDiv{
+	margin-top:10px;
+	font-size:24px;
+	width:100%;
+}
+video{
+	display:block;
+}
+img{
+	display:block;
+}
+#fileInfoDivOuter{
+	margin-top:15px;
+	width:100%;
+}
+#fileInfoDiv{
+	background:#777;
+	width:40%;
+}
+#fileInfo{
+	font-size:20px;
+	border-collapse:collapse;
+	width:100%;	
+}
+#fileInfo a{
+	text-decoration:none;
+	color:#ff0;
+}
+#fileInfo td{
+	background:#222;
+	border:1px solid #888;
+	font-size:14px;
+}
+.fileInfoLabel{
+	color:#fff;
+	font-weight:600;
+	text-align:right;
+	padding-right:5px;
+	width:100px;"
+}
+.fileInfoData{
+	background:#222;
+	padding-left:10px;
+	color:#aaa;
+	text-align:left;
+	border:1px solid #fff;
+}
+#asset{
+	border:1px solid #aaa;
+}
+.rate_widget {
+    overflow:   visible;
+    padding:    2px;
+    position:   relative;
+    width:      240px;
+    height:     32px;
+}
+.ratings_clouds {
+    background: url(grey_cloud.png) no-repeat;
+    float:      left;
+    padding:    2px;
+	background-size:100% 100%;
+    width:      36px;
+    height:     28px;
+	cursor: pointer;
+}
+.ratings_vote {
+    background: url(green_cloud.png) no-repeat;
+	background-size:100% 100%;
+}
+.ratings_over {
+    background: url(blue_cloud.png) no-repeat;
+	background-size:100% 100%;
+}
+.total_votes {
+    background: #eaeaea;
+    top: 58px;
+    left: 0;
+    padding: 5px;
+    position:   absolute;  
+} 
+.movie_choice {
+    font-family: 10px Square721;
+    margin: 0 auto 40px auto;
+    width: 180px;
+}
+#popCell{
+	padding-left:8px;
+	font-size:24px;
+	color:#eee;
+}
